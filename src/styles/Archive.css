@@ -1,49 +1,97 @@
 .archive {
-  padding: 2rem;
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
   color: #eee;
+}
+
+.archive h2 {
   text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #4caf7d;
 }
 
-.plant-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 1.5rem;
-  margin-top: 2rem;
-}
-
-.plant-card {
-  background: rgba(0, 0, 0, 0.6);
-  border: 1px solid #333;
-  border-radius: 8px;
-  padding: 1rem;
-  text-decoration: none;
-  color: inherit;
-  transition: transform 0.2s ease, border-color 0.2s ease;
-}
-
-.plant-card:hover {
-  transform: translateY(-5px);
-  border-color: #da26da;
-}
-
-.plant-card img {
-  width: 100%;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 6px;
-  margin-bottom: 0.5rem;
-}
-
+/* 2 cards per row */
 .archive-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); 
+  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
-  margin-top: 2rem;
 }
 
 @media (max-width: 768px) {
   .archive-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; /* stack on small screens */
   }
 }
 
+.archive-card {
+  background: rgba(15, 15, 20, 0.9);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.35);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease;
+}
+
+.archive-card:hover {
+  transform: translateY(-4px);
+}
+
+.archive-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+
+.archive-content {
+  padding: 1rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.archive-content h3 {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.archive-content h3 a {
+  color: #4caf7d;
+  text-decoration: none;
+}
+
+.archive-content h3 a:hover {
+  text-decoration: underline;
+}
+
+.archive-meta {
+  font-size: 0.85rem;
+  color: #bbb;
+}
+
+.archive-status {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.archive-excerpt {
+  font-size: 0.95rem;
+  color: #ddd;
+  line-height: 1.5;
+  flex-grow: 1;
+}
+
+.read-more {
+  font-weight: 600;
+  color: #4caf7d;
+  text-decoration: none;
+  margin-top: auto;
+  transition: color 0.2s ease;
+}
+
+.read-more:hover {
+  color: #3b8d65;
+}

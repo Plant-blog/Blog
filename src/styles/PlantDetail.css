@@ -70,3 +70,34 @@
   color: #3b8d65;
   transform: translateX(-3px);
 }
+
+/* Blockquote styling */
+.post-content blockquote {
+  margin: 2rem 0;
+  padding: 1rem 1.5rem;
+  border-left: 4px solid #4caf7d;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 6px;
+  font-style: italic;
+  color: #d9d9d9;
+  line-height: 1.7;
+  position: relative;
+}
+
+.post-content blockquote::before {
+  content: "❝";
+  font-size: 2rem;
+  color: #4caf7d;
+  position: absolute;
+  top: -10px;
+  left: 10px;
+}
+
+.post-content blockquote::after {
+  content: "❞";
+  font-size: 2rem;
+  color: #4caf7d;
+  position: absolute;
+  bottom: -12px;
+  right: 10px;
+}

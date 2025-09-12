@@ -12,11 +12,11 @@ export const plants = [
 Silphium was used by the ancient Greeks and Romans as both medicine and spice. 
 It was considered so valuable that it was depicted on coins. 
 
-Overharvested and never cultivated, it vanished — a reminder of human overuse.
+<blockquote>
+Pliny the Elder wrote that Silphium was "worth its weight in silver."
+</blockquote>
 
-Some historians believe Silphium may have had contraceptive properties, 
-which made it even more sought after. Its extinction is a symbol of how 
-human desire can permanently alter biodiversity.`
+Overharvested and never cultivated, it vanished — a reminder of human overuse.`
   },
   {
     slug: "st-helena-olive",
@@ -29,13 +29,12 @@ human desire can permanently alter biodiversity.`
     image: "/images/olive.jpg",
     content: `
 The St. Helena Olive was endemic to the island of St. Helena. 
-Despite conservation efforts, propagation attempts failed. 
 
-The death of the last tree in 2003 marked its extinction. 
+<blockquote>
+Botanists described it as "one of the rarest trees in the world."
+</blockquote>
 
-This species reminds us that conservation requires foresight — 
-by the time a species is reduced to a handful of individuals, 
-it may already be too late.`
+Despite conservation efforts, propagation attempts failed. The death of the last tree in 2003 marked its extinction.`
   },
   {
     slug: "sand-verbena",
@@ -48,12 +47,12 @@ it may already be too late.`
     image: "/images/sand-verbena.jpg",
     content: `
 The Sand Verbena thrived in fragile coastal dune ecosystems. 
-Urban development destroyed much of its habitat. 
 
-Though believed extinct, rare isolated individuals may survive. 
+<blockquote>
+Local botanists once called it "a jewel of the shifting sands."
+</blockquote>
 
-It is a story not just of loss, but of resilience — 
-sometimes nature clings on in hidden corners, waiting for rediscovery.`
+Urban development destroyed much of its habitat. Though believed extinct, rare isolated individuals may survive.`
   },
   {
     slug: "begonia",
@@ -66,10 +65,12 @@ sometimes nature clings on in hidden corners, waiting for rediscovery.`
     image: "/images/begonia.jpg",
     content: `
 The Woolly-stalked Begonia was wiped out by extensive deforestation in India. 
-Its loss symbolizes the price of unchecked logging in biodiversity hotspots. 
 
-Although other begonia species survive, this one is gone forever, 
-leaving behind only herbarium samples and faded records.`
+<blockquote>
+Colonial records described its leaves as "velvet to the touch."
+</blockquote>
+
+Its loss symbolizes the price of unchecked logging in biodiversity hotspots.`
   },
   {
     slug: "fern",
@@ -82,9 +83,12 @@ leaving behind only herbarium samples and faded records.`
     image: "/images/parsley.jpg",
     content: `
 Once declared extinct, this fern was rediscovered in 2010 clinging to a cliff face. 
-It is critically endangered and survives only through careful cultivation. 
 
-Its rediscovery highlights the importance of never giving up on conservation.`
+<blockquote>
+Its rediscovery was hailed as "a miracle of persistence."
+</blockquote>
+
+It is critically endangered and survives only through careful cultivation.`
   },
   {
     slug: "smartweed",
@@ -97,10 +101,12 @@ Its rediscovery highlights the importance of never giving up on conservation.`
     image: "/images/smartweed.jpg",
     content: `
 Pennsylvania Smartweed once grew abundantly in wetlands. 
-Urban expansion erased it from much of its range, though it survives in patches. 
 
-Its regional extinction is a warning that local losses matter — 
-ecosystems unravel even before global extinction is declared.`
+<blockquote>
+Farmers once dismissed it as "just another ditch weed."
+</blockquote>
+
+Urban expansion erased it from much of its range, though it survives in patches.`
   },
   {
     slug: "franklin-tree",
@@ -113,10 +119,12 @@ ecosystems unravel even before global extinction is declared.`
     image: "/images/franklin-tree.jpg",
     content: `
 Discovered in the 18th century, the Franklin Tree vanished from the wild by 1803. 
-It survives today only in cultivation, thanks to early botanists preserving seeds. 
 
-Every Franklin Tree now alive is descended from those few rescued individuals, 
-a living example of human intervention saving a species, albeit outside its habitat.`
+<blockquote>
+William Bartram called it "the most beautiful flowering tree in America."
+</blockquote>
+
+It survives today only in cultivation, thanks to early botanists preserving seeds.`
   },
   {
     slug: "hibernia-rush",
@@ -129,9 +137,12 @@ a living example of human intervention saving a species, albeit outside its habi
     image: "/images/hibernia-rush.jpg",
     content: `
 The Hibernia Rush was a wetland plant native to Ireland. 
-It disappeared after widespread drainage projects in the 1800s eliminated its habitat. 
 
-It remains one of many species lost quietly, without fanfare, in the name of progress.`
+<blockquote>
+One botanist lamented, "it disappeared without a whisper."
+</blockquote>
+
+It vanished after drainage projects in the 1800s eliminated its habitat.`
   },
   {
     slug: "blue-calamintha",
@@ -144,9 +155,12 @@ It remains one of many species lost quietly, without fanfare, in the name of pro
     image: "/images/blue-calamintha.jpg",
     content: `
 Blue Calamintha produces delicate violet blossoms and was historically used as a herb. 
-Its fragmented populations are on the edge of extinction. 
 
-Conservationists are racing to preserve its genetic diversity before it disappears.`
+<blockquote>
+Herbalists praised it as "the healer’s friend."
+</blockquote>
+
+Its fragmented populations are on the edge of extinction.`
   },
   {
     slug: "toromiro",
@@ -159,10 +173,12 @@ Conservationists are racing to preserve its genetic diversity before it disappea
     image: "/images/toromiro.jpg",
     content: `
 The Toromiro Tree was sacred to the people of Rapa Nui. 
-It was lost to deforestation and grazing animals, but persists in botanic gardens. 
 
-Efforts are underway to reintroduce it to Easter Island, 
-but its original ecosystem has been so altered that success is uncertain.`
+<blockquote>
+Island elders said, "its wood carried the spirit of the ancestors."
+</blockquote>
+
+It was lost to deforestation and grazing animals, but persists in botanic gardens.`
   },
   {
     slug: "santa-cruz-cypress",
@@ -175,9 +191,12 @@ but its original ecosystem has been so altered that success is uncertain.`
     image: "/images/santa-cruz-cypress.jpg",
     content: `
 The Santa Cruz Cypress is a conifer found only in California’s Santa Cruz Mountains. 
-Fire suppression and development have endangered its small remaining populations. 
 
-It stands as a reminder of how even familiar landscapes can harbor critically rare species.`
+<blockquote>
+Conservationists warn it is "hanging by a thread."
+</blockquote>
+
+Fire suppression and development have endangered its small remaining populations.`
   },
   {
     slug: "canary-island-spurge",
@@ -190,9 +209,11 @@ It stands as a reminder of how even familiar landscapes can harbor critically ra
     image: "/images/canary-island-spurge.jpg",
     content: `
 This cactus-like spurge forms dense thickets in the Canary Islands. 
-Habitat destruction and climate change threaten its survival. 
 
-It is a striking example of adaptation to harsh environments — 
-and of how fragile even tough-looking plants can be.`
+<blockquote>
+Locals describe it as "a fortress of thorns."
+</blockquote>
+
+Habitat destruction and climate change threaten its survival.`
   }
 ];
