@@ -4,6 +4,7 @@ import Archive from "./pages/Archive";
 import PlantDetail from "./pages/PlantDetail";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Contact from "./pages/Contact";
 import "./styles/App.css";
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/archive" element={<Archive />} />
         <Route path="/archive/:slug" element={<PlantDetail />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </div>
