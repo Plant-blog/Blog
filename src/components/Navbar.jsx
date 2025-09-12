@@ -36,7 +36,6 @@ export default function Navbar() {
           <li>
   <NavLink to="/contact">Contact</NavLink>
 </li>
-
         </ul>
       </div>
     </header>

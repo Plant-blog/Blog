@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { plants } from "../data/plants";
 import "../styles/Home.css";
 
 export default function Home() {
@@ -9,6 +10,19 @@ export default function Home() {
       <Link to="/archive" className="cta">
         Enter the Archive
       </Link>
+
+      <div className="carousel">
+        {plants.map((plant) => (
+          <Link
+            to={`/archive/${plant.slug}`}
+            key={plant.slug}
+            className="carousel-item"
+          >
+            <img src={plant.image} alt={plant.name} />
+            <span>{plant.name}</span>
+          </Link>
+        ))}
+      </div>
     </section>
   );
 }
