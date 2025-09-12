@@ -8,10 +8,8 @@ export default function Contact() {
 
       <form
         className="contact-form"
-        onSubmit={(e) => {
-          e.preventDefault();
-          alert("Message sent!");
-        }}
+        action="https://formspree.io/f/mnnbrdbv"  
+        method="POST"
       >
         <label>
           Name
