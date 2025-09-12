@@ -55,5 +55,59 @@ It is critically endangered and survives only through careful cultivation.`
     image: "/images/smartweed.jpg",
     content: `Pennsylvania Smartweed once grew abundantly in wetlands.
 Urban expansion erased it from much of its range, though it survives in patches.`
+  },
+  {
+    slug: "franklin-tree",
+    name: "Franklin Tree (Franklinia alatamaha)",
+    status: "Extinct in the wild",
+    note: "Last seen in the wild in Georgia in 1803 — survives only in cultivation.",
+    image: "/images/franklin-tree.jpg",
+    content: `Discovered in the 18th century, the Franklin Tree vanished from the wild by 1803.
+It survives today only in cultivation, thanks to early botanists preserving seeds.`
+  },
+  {
+    slug: "hibernia-rush",
+    name: "Hibernia Rush (Juncus hibernicus)",
+    status: "Extinct",
+    note: "A wetland species from Ireland — lost to drainage projects in the 19th century.",
+    image: "/images/hibernia-rush.jpg",
+    content: `The Hibernia Rush was a wetland plant native to Ireland.
+It disappeared after widespread drainage projects in the 1800s eliminated its habitat.`
+  },
+  {
+    slug: "blue-calamintha",
+    name: "Blue Calamintha (Clinopodium calamintha)",
+    status: "Critically endangered",
+    note: "Rare herb with violet flowers, found only in a few Mediterranean regions.",
+    image: "/images/blue-calamintha.jpg",
+    content: `Blue Calamintha produces delicate violet blossoms and was historically used as a herb.
+Its fragmented populations are on the edge of extinction.`
+  },
+  {
+    slug: "toromiro",
+    name: "Toromiro Tree (Sophora toromiro)",
+    status: "Extinct in the wild",
+    note: "Native to Easter Island, lost due to deforestation and grazing.",
+    image: "/images/toromiro.jpg",
+    content: `The Toromiro Tree was sacred to the people of Rapa Nui.
+It was lost to deforestation and grazing animals, but persists in botanic gardens.`
+  },
+  {
+    slug: "santa-cruz-cypress",
+    name: "Santa Cruz Cypress (Hesperocyparis abramsiana)",
+    status: "Endangered",
+    note: "A rare Californian conifer, limited to a few groves in the Santa Cruz Mountains.",
+    image: "/images/santa-cruz-cypress.jpg",
+    content: `The Santa Cruz Cypress is a conifer found only in California’s Santa Cruz Mountains.
+Fire suppression and development have endangered its small remaining populations.`
+  },
+  {
+    slug: "canary-island-spurge",
+    name: "Canary Island Spurge (Euphorbia canariensis)",
+    status: "Threatened",
+    note: "Distinctive cactus-like plant native to the Canary Islands.",
+    image: "/images/canary-island-spurge.jpg",
+    content: `This cactus-like spurge forms dense thickets in the Canary Islands.
+Habitat destruction and climate change threaten its survival.`
   }
 ];
