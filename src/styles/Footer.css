@@ -1,0 +1,11 @@
+.footer {
+  background: linear-gradient(to bottom, #013220, #000);
+  color: #c8c6bf;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+.footer nav a {
+  color: #fdfcf7;
+  text-decoration: none;
+}
+.footer nav a:hover { text-decoration: underline; }

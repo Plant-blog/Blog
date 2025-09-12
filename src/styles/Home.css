@@ -1,0 +1,37 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background:
+    linear-gradient(rgba(0,0,0,0.45), rgba(1,50,32,0.9)),
+    url("/home.png") center/cover no-repeat;
+  color: #fdfcf7;
+}
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-family: "Playfair Display", serif;
+}
+.hero p {
+  font-size: 1.1rem;
+  color: #c8c6bf;
+  max-width: 640px;
+  margin-bottom: 2rem;
+}
+.hero .cta {
+  margin-top: 1rem;
+  padding: 0.8rem 1.6rem;
+  border: 1px solid #4caf7d;
+  color: #fdfcf7;
+  text-decoration: none;
+  border-radius: 999px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+.hero .cta:hover {
+  background: rgba(20, 93, 37, 0.15);
+  box-shadow: 0 0 12px rgba(6, 75, 2, 0.4);
+}

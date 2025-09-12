@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@400;500&display=swap');
+
+:root{
+  --bg:#013220;
+  --ink:#fdfcf7;
+  --accent:#da26da;
+  --muted:#c8c6bf;
+  --card:#102a20;
+}
+
+*{ box-sizing:border-box; }
+html, body, #root { height:100%; margin:0; }
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--bg); 
+  color: var(--ink);
+}
+a { color: inherit; }
