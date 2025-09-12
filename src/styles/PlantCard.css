@@ -15,7 +15,7 @@
 .plant-card p { margin: 0 0.8rem 1rem; color: #c8c6bf; }
 
 .plant-card {
-  width: 100%;  /* ✅ let the grid control size */
+  width: 100%; 
   background: #0f2416;
   border-radius: 8px;
   padding: 1rem;

@@ -10,19 +10,9 @@ export default function Home() {
       <Link to="/archive" className="cta">
         Enter the Archive
       </Link>
-
-      <div className="carousel">
-        {plants.map((plant) => (
-          <Link
-            to={`/archive/${plant.slug}`}
-            key={plant.slug}
-            className="carousel-item"
-          >
-            <img src={plant.image} alt={plant.name} />
-            <span>{plant.name}</span>
-          </Link>
-        ))}
-      </div>
+ 
     </section>
   );
 }
+
+
