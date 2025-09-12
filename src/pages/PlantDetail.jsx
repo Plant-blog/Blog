@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import { plants } from "../data/plants";
 import "../styles/PlantDetail.css";
 
@@ -7,15 +7,44 @@ export default function PlantDetail() {
   const plant = plants.find((p) => p.slug === slug);
 
   if (!plant) {
-    return <h2>Plant not found</h2>;
+    return (
+      <main className="plant-detail">
+        <h2>Plant not found</h2>
+        <Link to="/archive" className="back-link">← Back to Archive</Link>
+      </main>
+    );
   }
 
   return (
-    <div className="plant-detail">
-      <h2>{plant.name}</h2>
-      <img src={plant.image} alt={plant.name} />
-      <p><strong>Status:</strong> {plant.status}</p>
-      <p>{plant.note}</p>
-    </div>
+    <main className="plant-detail">
+      <article>
+        {/* Blog Title */}
+        <h1 className="post-title">{plant.title}</h1>
+
+        {/* Author + Date */}
+        <div className="post-meta">
+          <span>By {plant.author}</span> · <span>{plant.date}</span>
+        </div>
+
+        {/* Featured Image */}
+        <img src={plant.image} alt={plant.name} className="post-image" />
+
+        {/* Status */}
+        <div className="post-status">
+          <strong>Status:</strong> {plant.status}
+        </div>
+
+        {/* Blog Content */}
+        <div className="post-content">
+          {plant.content.split("\n").map((para, idx) =>
+            para.trim() ? <p key={idx}>{para}</p> : null
+          )}
+        </div>
+
+        {/* Back Link */}
+        <Link to="/archive" className="back-link">← Back to Archive</Link>
+      </article>
+    </main>
   );
 }
+
