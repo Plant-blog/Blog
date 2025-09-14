@@ -22,8 +22,8 @@ View blogs with images and descriptions
 
 | Feature         | Status  |
 |-----------------|---------|
-| Front End    | ✅ Done |
-| Back End  | ❌ Todo  |
+| FrontEnd    | ✅ Done |
+| BackEnd  | ❌ Todo  |
 
 ### HomePage
 <img src="public/images/HomePage.png" alt="Homepage Screenshot" width="500"/>
